@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 20px;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+body {
+  background-color: #d5e1ef;
+  font-family: "outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card h1 {
+  font-size: 1.25rem;
+  color: #1f3251;
+  margin: 1rem 0 0.75rem;
+}
+.card p {
+  font-size: 1rem;
+
+  color: #7b879d;
+}
